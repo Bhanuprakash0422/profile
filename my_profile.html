@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MY PROFILE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #00c9ff;
+      --secondary: #92fe9d;
+      --dark: #111;
+      --light: #f9f9f9;
+      --accent: #ff4d4f;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, var(--primary), var(--secondary));
+      color: var(--dark);
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: ;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    header img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      border: 4px solid var(--primary);
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.5rem;
+      color: black;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: rgb(248, 79, 88);
+    }
+
+    nav {
+      background: rebeccapurple;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: black;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      background: white;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    section h2 {
+      margin-bottom: 1rem;
+      border-left: 6px solid var(--accent);
+      padding-left: 10px;
+      font-size: 1.5rem;
+      color: var(--dark);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .icons i {
+      margin-right: 0.5rem;
+      color: var(--primary);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: var(--dark);
+      color: white;
+    }
+
+    .socials {
+      margin-top: 1rem;
+    }
+
+    .socials a {
+      color: blue;
+      margin: 0 10px;
+      font-size: 1.9rem;
+      transition: color 0.3s ease;
+    }
+
+    .socials a:hover {
+      color: red;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      section {
+        padding: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="professional updated-resume.pdf"><img src="resort pic.jpg" alt="Profile Photo" /></a>
+    <h1>JORIGE NAGA BHANU PRAKASH</h1>
+    <p>Web Developer | Creative Thinker | Frontend Engineer | Problem Solver</p>
+  </header>
+
+  <nav>
+    <a href="#summary">Summary</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="summary">
+      <h2><i class="fas fa-user-tie icons"></i> Professional Summary</h2>
+      <p>Motivated and detail-oriented Computer Science graduate with a strong foundation in coding, problem-solving, and
+        software development. Seeking an entry-level Software Developer position to leverage technical skills in developing
+        innovative solutions while contributing to a collaborative team environment.</p>
+    </section>
+
+    <section id="education">
+      <h2><i class="fas fa-graduation-cap icons"></i> Education</h2>
+      <ul>
+        <li><strong> Bachelor of Technology (B.Tech) in Computer Science and Engineering</strong><br> Sree Venkateswara College of Engineering, Nellore, India (CGPA: 7.36/10) Batch: 2020 – 2024</li>
+        <li><strong> Intermediate (Mathematics, Physics, and Chemistry- MPC)</strong><br>Krishna Chaitanya Junior College, Nellore, India (CGPA: 9.65/10) Batch: 2018 – 2020</li>
+        <li><strong>Higher Secondary Education (SSC)</strong><br> ESRM High School, Nellore, India (CGPA: 8.5/10) Batch: 2017 – 2018</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2><i class="fas fa-code icons"></i>Technical Skills</h2>
+      <ul>
+        <li><strong>Programming Languages</strong> : Python (Basics), C (Basics)</li>
+        <li><strong> Data Analytics</strong> : MS Excel</li>
+        <li><strong>Web Technologies</strong> : Html5, Css3, Git, GitHub, REST APIs</li>
+        <li><strong> Database Management</strong> : SQL</li>
+        <li><strong>Soft Skills</strong> : Strategic Thinking, Team Collaboration, Project Coordination, Data Interpretation</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2><i class="fas fa-briefcase icons"></i>Work Experience</h2>
+      <ul>
+        <li><strong>Associate Intern -  ASSISTIVE INFOTECH</strong> (May 2023 - June 2023)  Remote (Nellore, India) :
+            <br> • Designed and deployed an AWS-hosted web application using HTML, CSS, and Python, reducing UI load time
+            by 30% and improving cross-device compatibility.<br>
+            • Configured and managed an AWS EC2 instance for hosting a full-stack application, ensuring cross-device com
+            patibility.<br>
+            • Implemented API integration to fetch and display real-time data, improving project efficiency by 25%.<br>
+            • Optimized website performance by reducing page load time by 40% through image compression and script
+            minification.<br>
+            • Cloud computing with AWS Internship Certification : <a style="color: blue;" href="Internship (AWS) certificate _page-0001.jpg">Verify Here</a></li>
+        <li><strong>Young Professional Intern -  TCS iON Career Edge</strong> ( March 2025 - April 2025
+        )  Remote ( TCS, India) :<br>  • Certificate of Achievement for successfully completing TCS iON Career Edge- Young Professional course that
+        covers Communication Skills — Presentation Skill — Soft Skills — Career Guidance Framework — Resume
+        Writing — Group Discussion Skills — Interview Skills — Business Etiquette — Effective Email Writing —
+        Telephone Etiquette— Accounting Fundamentals — IT Foundational Skills — Overview of Artificial Intelligence.<br>
+        • TCS iON Career Edge- Young Professional Certification : <a style="color: blue;" href="tcs-certificatio.jpg">Verify Here</a></li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2><i class="fas fa-laptop-code icons"></i> Projects</h2>
+      <ul>
+        <li><strong> Harnessing The Power Of Deep LearningF or Renal Image Classification
+            :</strong><br> • Developed a deep learning model leveraging Convolutional Neural Networks (CNN) to classify renal pathologies
+            from CT images, achieving 92% accuracy and reducing diagnostic time by 40% .<br>
+            • Implemented an innovative solution that improved early disease detection by 25%, enhanced treatment planning
+            efficiency by 30%, and increased patient outcome success rates by 15% in clinical practice.<br>
+            • The model effectively identifies various kidney abnormalities, including cysts, tumors, and stones, offering a
+            reliable automated tool for clinicians.</li>
+        <li><strong>Portfolio Website:</strong> Personal branding site showcasing my work and blog.</li>
+      </ul>
+    </section>
+
+    <section id="certifications">
+      <h2><i class="fas fa-certificate icons"></i> Certifications</h2>
+      <ul>
+        <li> <strong>Cloud computing with AWS Internship (2 Months) :</strong><br> Assistive technologies institution, Nellore (2023) : <a style="color: blue;" href="Internship (AWS) certificate _page-0001.jpg">Verify Here</a></li>
+        <li><strong> Computer Vision with Deep Learning Internship (3 Months) :</strong><br>  Brain O Vision Solutions Pvt.Ltd , Remote , India (2024) : <a style="color: blue;" href="intern.jpeg">Verify Here</a></li>
+        <li><strong> TCS iON Career Edge- Young Professional Internship (1 Month) :</strong><br>  Tata Consultancy Services, Remote , India (2025) : <a style="color: blue;" href="tcs-certificatio.jpg">Verify Here</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2><i class="fas fa-envelope icons"></i> Contact Me</h2>
+      <p>Email: <a href="mailto:nagabhanuprakash2000@gmail.com">nagabhanuprakash2000@gmail.com</a></p>
+      <p>Phone: +91 6301241974</p>
+      <p>Location: Nellore, India</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/naga-bhanu-096488319"><i class="fab fa-linkedin"></i></a>
+        <a href="https://bhanuprakash0422.github.io/student_login/"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/bhanu._0822?igsh=a28zMzF2MHlrMDI3"><i class="fab fa-instagram"></i></a>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Your Name. Built with ❤️ using HTML, CSS, JS.
+  </footer>
+
+</body>
+</html>
